@@ -48,6 +48,10 @@ body {
     color: var(--blue-color); 
 }
 
+#bd-theme {
+    padding: 4px 10px;
+}
+
 
 .container {
     padding: 40px;
