@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #343a40;
+    --blue-color: #0d6efd;
+    --gray-color: #6c757d;
+    --light-gray: #f8f9fa;
+}
+
+:root[data-bs-theme="dark"] {
+    --white-color: #343a40;
+    --black-color: #ffffff;
+    --gray-color: #adb5bd;
+    --light-gray: #6c757d;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    position: sticky; 
+    top: 0; 
+    z-index: 2;
+    background-color: var(--light-gray);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.header__logo {
+    max-width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.header__logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: var(--black-color); 
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--blue-color); 
+}
+
+
+.container {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about {
+    font-size: 1.1rem;
+    color: var(--gray-color); 
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+h2 {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: relative;
+}
+
+
+h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, #00C0FF, #4218B8);
+    margin: 0.5rem;
+}
+
+.education {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.education:last-child {
+    border-bottom: none;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--black-color); 
+    margin-bottom: 0.5rem;
+}
+
+.education__date,
+.education__technologies {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.education__img {
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 1rem;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; */
+}
+
+footer {
+    background-color: var(--light-gray);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer__link svg {
+    margin-right: 8px;
+    fill: var(--black-color);
+}
+
+.footer__link:hover {
+    color: var(--blue-color);
+}
+
+.footer__link svg:hover {
+    fill: var(--blue-color);
+}
+
+
+
+@media (max-width: 992px) {
+    .header__logo {
+        max-width: 120px;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 0;
+    }
+
+    .header__logo {
+        max-width: 100px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__logo {
+        max-width: 80px;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .btn-primary {
+        margin-bottom: 8px;
+    }
+
+    .footer__link {
+        font-size: 0.9rem;
+    }
+}
