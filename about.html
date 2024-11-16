@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru" data-bs-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Demidova</title>
     <meta name="title" content="Мое портфолио">
     <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="about.css">
-    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg header">
         <div class="container-fluid">
@@ -19,7 +26,8 @@
                 <img src="assets/icons/logo.png" alt="logo" class="header__logo img-fluid">
 
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -40,9 +48,14 @@
 
     <main>
         <section class="container mt-4">
-            <p class="about">Я frontend-разработчица с высшим медицинским образованием. Получив бесценный опыт в своей профессии я поняла, что хочу сменить сферу деятельности, и в 2023 году решила изучить абсолютно новую для себя профессию и ушла из медицины в программирование.</p>
-            <p class="about">Программирование меня привлекает тем, что здесь есть колоссальные возможности для развития. Благодаря моему предыдущему опыту, я умею и люблю непрерывно обучаться, меня не пугают сложные задачи, и я умею работать в команде.</p>
-            <p class="about">Сейчас активно развиваюсь в этом направлении, изучаю новые технологии и готова работать над интересными проектами.</p>
+            <p class="about">Я frontend-разработчица с высшим медицинским образованием. Получив бесценный опыт в своей
+                профессии я поняла, что хочу сменить сферу деятельности, и в 2023 году решила изучить абсолютно новую
+                для себя профессию и ушла из медицины в программирование.</p>
+            <p class="about">Программирование меня привлекает тем, что здесь есть колоссальные возможности для развития.
+                Благодаря моему предыдущему опыту, я умею и люблю непрерывно обучаться, меня не пугают сложные задачи, и
+                я умею работать в команде.</p>
+            <p class="about">Сейчас активно развиваюсь в этом направлении, изучаю новые технологии и готова работать над
+                интересными проектами.</p>
         </section>
 
         <section class="container">
@@ -132,23 +145,97 @@
                 </div>
             </div>
         </section>
+
+        <section class="container">
+            <h2>Сертификаты</h2>
+            <div id="carouselExampleIndicators" class="carousel slide mt-4">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/certificates/synergy.jpg" class="d-block certificate" alt="synergy">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/itgirls.png" class="d-block certificate" alt="itgirls">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/udemy.jpg" class="d-block certificate" alt="udemy">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/ylab.jpg" class="d-block certificate" alt="ylab">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/hackathon.jpg" class="d-block certificate" alt="hackathon">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/itlogia-frontend.jpeg" class="d-block certificate"
+                            alt="itlogia-frontend">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/itlogia-design.jpeg" class="d-block certificate"
+                            alt="itlogia-design">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/certificates/sololearn.jpg" class="d-block certificate" alt="sololearn">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </main>
 
     <footer class="container-fluid text-center mt-5 py-4">
         <div class="row align-items-center justify-content-center">
             <div class="col-6 col-md-3 d-flex justify-content-center gap-5">
-                <a href="https://github.com/dariaSDemidova" target="_blank" class="footer__link d-flex align-items-center">
-                    <svg width="24" height="24" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.9771 0.278076C5.45205 0.278076 0.977052 4.75308 0.977052 10.2781C0.975918 12.3774 1.63587 14.4237 2.86327 16.1268C4.09067 17.8298 5.8232 19.1031 7.81505 19.7661C8.31505 19.8531 8.50205 19.5531 8.50205 19.2901C8.50205 19.0531 8.48905 18.2661 8.48905 17.4281C5.97705 17.8911 5.32705 16.8161 5.12705 16.2531C5.01405 15.9651 4.52705 15.0781 4.10205 14.8401C3.75205 14.6531 3.25205 14.1901 4.08905 14.1781C4.87705 14.1651 5.43905 14.9031 5.62705 15.2031C6.52705 16.7151 7.96505 16.2901 8.53905 16.0281C8.62705 15.3781 8.88905 14.9411 9.17705 14.6911C6.95205 14.4411 4.62705 13.5781 4.62705 9.75308C4.62705 8.66508 5.01405 7.76608 5.65205 7.06508C5.55205 6.81508 5.20205 5.79008 5.75205 4.41508C5.75205 4.41508 6.58905 4.15308 8.50205 5.44108C9.31611 5.21514 10.1572 5.10142 11.0021 5.10308C11.8521 5.10308 12.7021 5.21508 13.5021 5.44008C15.4141 4.14008 16.2521 4.41608 16.2521 4.41608C16.8021 5.79108 16.4521 6.81608 16.3521 7.06608C16.9891 7.76608 17.3771 8.65308 17.3771 9.75308C17.3771 13.5911 15.0401 14.4411 12.8151 14.6911C13.1771 15.0031 13.4901 15.6031 13.4901 16.5411C13.4901 17.8781 13.4771 18.9531 13.4771 19.2911C13.4771 19.5531 13.6651 19.8651 14.1651 19.7651C16.1501 19.0949 17.875 17.8191 19.097 16.1172C20.3189 14.4154 20.9765 12.3732 20.9771 10.2781C20.9771 4.75308 16.5021 0.278076 10.9771 0.278076Z"></path></svg> 
+                <a href="https://github.com/dariaSDemidova" target="_blank"
+                    class="footer__link d-flex align-items-center">
+                    <svg width="24" height="24" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.9771 0.278076C5.45205 0.278076 0.977052 4.75308 0.977052 10.2781C0.975918 12.3774 1.63587 14.4237 2.86327 16.1268C4.09067 17.8298 5.8232 19.1031 7.81505 19.7661C8.31505 19.8531 8.50205 19.5531 8.50205 19.2901C8.50205 19.0531 8.48905 18.2661 8.48905 17.4281C5.97705 17.8911 5.32705 16.8161 5.12705 16.2531C5.01405 15.9651 4.52705 15.0781 4.10205 14.8401C3.75205 14.6531 3.25205 14.1901 4.08905 14.1781C4.87705 14.1651 5.43905 14.9031 5.62705 15.2031C6.52705 16.7151 7.96505 16.2901 8.53905 16.0281C8.62705 15.3781 8.88905 14.9411 9.17705 14.6911C6.95205 14.4411 4.62705 13.5781 4.62705 9.75308C4.62705 8.66508 5.01405 7.76608 5.65205 7.06508C5.55205 6.81508 5.20205 5.79008 5.75205 4.41508C5.75205 4.41508 6.58905 4.15308 8.50205 5.44108C9.31611 5.21514 10.1572 5.10142 11.0021 5.10308C11.8521 5.10308 12.7021 5.21508 13.5021 5.44008C15.4141 4.14008 16.2521 4.41608 16.2521 4.41608C16.8021 5.79108 16.4521 6.81608 16.3521 7.06608C16.9891 7.76608 17.3771 8.65308 17.3771 9.75308C17.3771 13.5911 15.0401 14.4411 12.8151 14.6911C13.1771 15.0031 13.4901 15.6031 13.4901 16.5411C13.4901 17.8781 13.4771 18.9531 13.4771 19.2911C13.4771 19.5531 13.6651 19.8651 14.1651 19.7651C16.1501 19.0949 17.875 17.8191 19.097 16.1172C20.3189 14.4154 20.9765 12.3732 20.9771 10.2781C20.9771 4.75308 16.5021 0.278076 10.9771 0.278076Z">
+                        </path>
+                    </svg>
                     <span>GitHub</span>
                 </a>
                 <a href="https://t.me/demi_dari" target="_blank" class="footer__link d-flex align-items-center">
-                    <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6-.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"></path></svg> 
+                    <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6-.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z">
+                        </path>
+                    </svg>
                     <span>Telegram</span>
                 </a>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
