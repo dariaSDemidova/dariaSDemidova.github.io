@@ -227,6 +227,10 @@ footer {
     .card-text {
         font-size: 0.85rem;
     }
+
+    .certificate {
+        height: 300px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -269,5 +273,9 @@ footer {
 
     .footer__link {
         font-size: 0.9rem;
+    }
+
+    .certificate {
+        height: 200px;
     }
 }
